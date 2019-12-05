@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row" *ngIf="currentEvent">
+      <div class="col-md-12 text-center">
+          <p>{{currentEvent.event_owner}}</p>
+          <hr>
+          <p>{{currentEvent.event_day}}</p>
+          <hr>
+          <p>{{currentEvent.event_price}}</p>
+          <hr>
+          <p>{{currentEvent.event_organiser}}</p>
+          <hr>
+          <p>{{currentEvent.event_venue}}</p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row" *ngIf="currentEvent">
+      <div class="col-md-4">
+  
+        <a class="btn btn-primary"  [routerLink]="['/edit',currentEvent.id]">Edit </a>
+  
+      </div>
+      <div class="col-md-4">
+  
+        <a class="btn btn-danger" (click)=deleteThisBlog()>Delete </a>
+  
+      </div>
+      <div class="col-md-4">
+  
+        <a class="btn btn-warning" (click)=goBackToPreviousPage()>Go Back </a>
+      </div>
+    </div>
+  
+  </div>

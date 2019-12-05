@@ -1,0 +1,286 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event_day": 9,
+      "event_price": 1839784,
+      "event_venue": "Kohlu",
+      "event_owner": "Cosette",
+      "event_organiser": "Treutel, Hintz and Auer"
+    },
+    {
+      "id": 2,
+      "event_day": 1,
+      "event_price": 1198372,
+      "event_venue": "Chumphon Buri",
+      "event_owner": "Matthias",
+      "event_organiser": "Russel-Hackett"
+    },
+    {
+      "id": 3,
+      "event_day": 9,
+      "event_price": 1252842,
+      "event_venue": "Khorramdarreh",
+      "event_owner": "Nolana",
+      "event_organiser": "Jakubowski, Kshlerin and Orn"
+    },
+    {
+      "id": 4,
+      "event_day": 10,
+      "event_price": 797168,
+      "event_venue": "Charlotte",
+      "event_owner": "Sean",
+      "event_organiser": "Douglas and Sons"
+    },
+    {
+      "id": 5,
+      "event_day": 1,
+      "event_price": 1502227,
+      "event_venue": "Santo Antônio do Amparo",
+      "event_owner": "Maggi",
+      "event_organiser": "Graham Inc"
+    },
+    {
+      "id": 6,
+      "event_day": 8,
+      "event_price": 383992,
+      "event_venue": "Hutag",
+      "event_owner": "Marten",
+      "event_organiser": "Schmitt, Jaskolski and Hoppe"
+    },
+    {
+      "id": 7,
+      "event_day": 4,
+      "event_price": 1937563,
+      "event_venue": "Zhen’an",
+      "event_owner": "Vanessa",
+      "event_organiser": "Zemlak and Sons"
+    },
+    {
+      "id": 8,
+      "event_day": 4,
+      "event_price": 726342,
+      "event_venue": "Sherpur",
+      "event_owner": "Erhard",
+      "event_organiser": "Eichmann Inc"
+    },
+    {
+      "id": 9,
+      "event_day": 9,
+      "event_price": 1942863,
+      "event_venue": "Tagasilay",
+      "event_owner": "Stacia",
+      "event_organiser": "Feil, Herzog and Schoen"
+    },
+    {
+      "id": 10,
+      "event_day": 3,
+      "event_price": 790173,
+      "event_venue": "Jajawai",
+      "event_owner": "Killy",
+      "event_organiser": "Robel-Abernathy"
+    },
+    {
+      "id": 11,
+      "event_day": 4,
+      "event_price": 1836453,
+      "event_venue": "Letlhakeng",
+      "event_owner": "Donnajean",
+      "event_organiser": "Langworth, Davis and Beatty"
+    },
+    {
+      "id": 12,
+      "event_day": 5,
+      "event_price": 499609,
+      "event_venue": "Makiwalo",
+      "event_owner": "Elise",
+      "event_organiser": "Hahn, Kihn and Runolfsdottir"
+    },
+    {
+      "id": 13,
+      "event_day": 6,
+      "event_price": 541729,
+      "event_venue": "Azua",
+      "event_owner": "Allyce",
+      "event_organiser": "Ankunding LLC"
+    },
+    {
+      "id": 14,
+      "event_day": 7,
+      "event_price": 1693843,
+      "event_venue": "Erdenet",
+      "event_owner": "Emelyne",
+      "event_organiser": "Farrell Inc"
+    },
+    {
+      "id": 15,
+      "event_day": 3,
+      "event_price": 1173039,
+      "event_venue": "Dashiqiao",
+      "event_owner": "Thedrick",
+      "event_organiser": "Kunze Group"
+    },
+    {
+      "id": 16,
+      "event_day": 9,
+      "event_price": 1008068,
+      "event_venue": "Gamovo",
+      "event_owner": "Jenelle",
+      "event_organiser": "Koss, Romaguera and Roberts"
+    },
+    {
+      "id": 17,
+      "event_day": 3,
+      "event_price": 974102,
+      "event_venue": "Battung",
+      "event_owner": "Blakeley",
+      "event_organiser": "Stracke, Eichmann and Dickens"
+    },
+    {
+      "id": 18,
+      "event_day": 3,
+      "event_price": 1148740,
+      "event_venue": "Jeong",
+      "event_owner": "Alvira",
+      "event_organiser": "Stoltenberg, Metz and Prosacco"
+    },
+    {
+      "id": 19,
+      "event_day": 6,
+      "event_price": 844146,
+      "event_venue": "Holýšov",
+      "event_owner": "Pat",
+      "event_organiser": "Harvey, Block and Watsica"
+    },
+    {
+      "id": 20,
+      "event_day": 5,
+      "event_price": 1821854,
+      "event_venue": "Raci Kulon",
+      "event_owner": "Cointon",
+      "event_organiser": "Okuneva-Kirlin"
+    },
+    {
+      "id": 21,
+      "event_day": 9,
+      "event_price": 1278936,
+      "event_venue": "Masaraway",
+      "event_owner": "Elonore",
+      "event_organiser": "Jacobson, McClure and Greenfelder"
+    },
+    {
+      "id": 22,
+      "event_day": 6,
+      "event_price": 101449,
+      "event_venue": "Bergen",
+      "event_owner": "Lucille",
+      "event_organiser": "Ernser-Ferry"
+    },
+    {
+      "id": 23,
+      "event_day": 4,
+      "event_price": 607711,
+      "event_venue": "Rio das Ostras",
+      "event_owner": "Roosevelt",
+      "event_organiser": "Runolfsson Group"
+    },
+    {
+      "id": 24,
+      "event_day": 5,
+      "event_price": 631155,
+      "event_venue": "Mikhaylovka",
+      "event_owner": "Gretna",
+      "event_organiser": "Kerluke-Hilll"
+    },
+    {
+      "id": 25,
+      "event_day": 7,
+      "event_price": 576493,
+      "event_venue": "Xingzi",
+      "event_owner": "Bryce",
+      "event_organiser": "Blick LLC"
+    },
+    {
+      "id": 26,
+      "event_day": 5,
+      "event_price": 1784060,
+      "event_venue": "Waajid",
+      "event_owner": "Merrile",
+      "event_organiser": "Wuckert, Stracke and Pfeffer"
+    },
+    {
+      "id": 27,
+      "event_day": 6,
+      "event_price": 1828323,
+      "event_venue": "Ḩalabjah",
+      "event_owner": "Rodrigo",
+      "event_organiser": "Zboncak-Klein"
+    },
+    {
+      "id": 28,
+      "event_day": 2,
+      "event_price": 1101749,
+      "event_venue": "Limmared",
+      "event_owner": "Serena",
+      "event_organiser": "Spencer, Zulauf and Parisian"
+    },
+    {
+      "id": 29,
+      "event_day": 9,
+      "event_price": 1966304,
+      "event_venue": "Ralung",
+      "event_owner": "Lavinie",
+      "event_organiser": "Shanahan and Sons"
+    },
+    {
+      "id": 30,
+      "event_day": 5,
+      "event_price": 399452,
+      "event_venue": "Aqqan",
+      "event_owner": "Amity",
+      "event_organiser": "Toy, Jacobson and Frami"
+    },
+    {
+      "firstName": "addddd",
+      "lastName": "kdfdjfdjfj",
+      "email": "hfhfhfh@gmail.com",
+      "password": "12345",
+      "mobileNumber": 37377373737373,
+      "id": 31
+    },
+    {
+      "firstName": "abhishek",
+      "lastName": "bhati",
+      "email": "abhishekbhati193@gmail.com",
+      "password": "123456",
+      "mobileNumber": 8233371538,
+      "id": 32
+    },
+    {
+      "firstName": "asdsd",
+      "lastName": "asdsa",
+      "email": "asdasd@gmail.com",
+      "password": "123456sfsdf",
+      "mobileNumber": 34234324324,
+      "id": 33
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "sunny@gmail.com",
+      "firstName": "asdsd",
+      "lastName": "asdsa",
+      "mobileNumber": 34234324324,
+      "password": "123456"
+    },
+    {
+      "email": "abhi123@gmail.com",
+      "firstName": "abhishek",
+      "lastName": "bhati",
+      "mobileNumber": 1234567890,
+      "password": "123456",
+      "id": "7du2S1o"
+    }
+  ]
+}

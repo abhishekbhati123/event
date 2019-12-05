@@ -1,0 +1,77 @@
+
+  
+
+  
+      <h2 class="form-signin-heading">Sign Up To Start Chat</h2>
+  
+      <br>
+      <form [formGroup]="userForm" (submit)="onSubmit()">
+          <div class="form-group">
+  
+              <span>Email: </span> 
+          
+              <label for="inputEmail" class="sr-only">Email address</label>
+          
+              <input type="email" id="inputEmail" name="email" formControlName="email" class="form-control"  placeholder="Email address" required>
+            </div>
+
+        <div class="form-group">
+      <span>FirstName: </span>
+  
+      <label for="inputFirstName" class="sr-only">FirstName</label>
+  
+      <input type="text" id="inputFirstName" formControlName="firstName" name="firstName" class="form-control"  placeholder="FirstName" required autofocus>
+      <div class="err" *ngIf="userForm.controls['firstName'].invalid && userForm.controls['firstName'].dirty">
+      <div>Firstname is mandatory</div>
+      <div>Please input at least 3 letters</div>
+      </div>        
+    </div>
+      <br>
+        <div class ="form-group">
+      <span>LastName: </span>
+  
+      <label for="inputLastName" class="sr-only">LastName</label>
+  
+      <input type="text" id="inputLastName" name="lastName" formControlName="lastName"  class="form-control"  placeholder="LastName" required>
+        </div>
+      <br>
+      <div class="form-group">
+          <span>Mobile: </span>
+
+<label for="inputMobile" class="sr-only">Mobile</label>
+
+<input type="number" id="inputMobile" name="mobileNumber"  formControlName="mobileNumber"      class="form-control" placeholder="Mobile" required>
+
+
+
+</div>
+  
+     
+  
+      <br>
+     
+      <br>
+        <div class="form-group">
+      <span>Password: </span>
+  
+      <label for="inputPassword" class="sr-only">Password</label>
+  
+      <input type="password" id="inputPassword"  name="password" formControlName="password" class="form-control"  placeholder="Password" required>
+        </div>
+      <br>
+ 
+      <br>
+  <div class="from-group">
+      <button class="btn btn-{{userForm.valid ? 'primary':'danger'}}" [disabled]="userForm.invalid" class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+</div>
+    </form>
+
+
+  
+    
+  
+
+  
+  
+  
+  
