@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "id": 1,
-      "event_day": 9,
-      "event_price": 1839784,
-      "event_venue": "Kohlu",
-      "event_owner": "Cosette",
-      "event_organiser": "Treutel, Hintz and Auer"
-    },
-    {
       "id": 2,
       "event_day": 1,
       "event_price": 1198372,

@@ -28,6 +28,9 @@ export class ListingService {
     return this.http.post('http://localhost:3000/users',data)
   }
   editEvent(id,data){
-    return this.http.put('http://localhost:3000/events/',+id,data)
+    return this.http.put('http://localhost:3000/events/'+id,data)
+  }
+  deleteEvent(id,data){
+    return this.http.delete('http://localhost:3000/events/'+id,data);
   }
 }

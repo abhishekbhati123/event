@@ -27,6 +27,7 @@ public currentEvent;
 
     },
     err=>{
+      
       console.log(err)
     })
   }
@@ -34,6 +35,15 @@ public currentEvent;
     this.ListingService.editEvent(this.currentEvent.id,this.currentEvent).subscribe(res=>{
       console.log(res);
       this.router.navigate(['/event'])
+    },
+    err=>{
+      console.log(err);
+    })
+  }
+  delEvent(){
+    this.ListingService.deleteEvent(this.currentEvent.id,this.currentEvent).subscribe(res=>{
+      console.log(res)
+      this.router.navigate(['event']);
     },
     err=>{
       console.log(err);

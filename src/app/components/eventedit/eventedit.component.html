@@ -3,29 +3,29 @@
     <h3>Edit this Event</h3>
     <div class="row" style="text-align:left">
       <div class="col-md-12">
-          <form [formGroup]="eventEditForm" (submit)="onsubmit()">
+          <form [formGroup]="eventEditForm" (submit)="editThisBlog()">
               <div class="form-group">
                 <label for="inputEventDay" class="sr-only">Event Day</label>
             
-                <input type="number" id="inputEventDay" class="form-control" formControlName="event_day" placeholder="Email address"
+                <input type="number" id="inputEventDay" class="form-control" formControlName="event_day" placeholder="Event Day"
                   required autofocus>
               </div>
               <br>
               <div class="form-group">
                 <label for="inputPrice" class="sr-only">EventPrice</label>
             
-                <input type="number" id="inputPrice" class="form-control" formControlName="event_price" placeholder="Password"
+                <input type="number" id="inputPrice" class="form-control" formControlName="event_price" placeholder="Event Price"
                   required>
               </div>
               <br>
               <div class="form-group">
                   <label for="inputvenue" class="sr-only">EventVenue</label>
               
-                  <input type="text" id="inputvenue" class="form-control" formControlName="event_venue" placeholder="Password"
+                  <input type="text" id="inputvenue" class="form-control" formControlName="event_venue" placeholder="Event Venue"
                     required>
                 </div>
               <div class="form-group">
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Edit</button>
               </div>
             </form>
       </div>

@@ -29,7 +29,9 @@ import { EventlistComponent } from './components/eventlist/eventlist.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

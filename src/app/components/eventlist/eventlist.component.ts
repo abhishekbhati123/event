@@ -18,6 +18,7 @@ export class EventlistComponent implements OnInit {
     this.ListingService.getAllEvents().subscribe(res=>{
       this.allEvent = res;
       console.log(res)
+      
     },err=>console.log(err))
   }
 
